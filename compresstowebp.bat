@@ -41,7 +41,7 @@ echo.
 echo Starting conversion process...
 echo.
 
-python "%~dp0to_webp.py"
+python "%~dp0towebp.py"
 if errorlevel 1 (
     echo.
     echo An error occurred during conversion.
